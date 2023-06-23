@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/root.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>CSS Snippet Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <h2>
+            <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+        </h2>
+    </header>
+<main>
+    <article class="card">
+        <h1>Flexbox Row</h1>
+        <h2>Use these three properties to create a Flexbox row layout</h2>
+        <div>
+        <p><pre>
+.row {
+    display: flex;
+    flex-direction: row;
+}
+        </pre></p>
+        </div>
+    </article>
+    <article class="card">
+        <h1>Flexbox Column</h1>
+        <h2>Use these properties to create a Flexbox column layout.</h2>
+            <div>
+                <p><pre>
+.column {
+    display: flex;
+    flex-direction: column;
+} 
+                </pre></p>
+            </div>
+    </article>
+    <article class="card">
+        <h1>CSS Media Query</h1>
+        <h2>Make a responsive webpage based on the screen size.</h2>
+            <div>
+            <p><pre>
+@media screen and 
+(max-width: 992px) {
+    header {background: white;}
+}
+
+@media screen and 
+(max-width: 768px) {
+    header {background: yellow;}
+}
+
+@media screen and 
+(max-width: 576px) {
+    header {background: blue;}
+}
+            </pre></p>
+        </div>
+    </article>
+    <article class="card">
+        <h1>Linear Gradients</h1>
+        <h2>This will create a background linear gradient from top to bottom.</h2>
+            <div>
+                <p><pre>
+.linear-gradient-background {
+    background image: 
+    linear-gradient
+    (0deg, gray, black);
+}
+            </pre></p>
+        </div>
+    </article>
+    <article class="card">
+        <h1>Box Transition</h1>
+        <h2>Use transitons and box shadows to glow on hover.</h2>
+            <div>
+                <p><pre>
+.box-glow:hover {
+    box-shadow: 
+    15px 15px 10px 3px purple;
+    transition-duration: 2s;
+    transition-timing-function: 
+    linear;
+}
+                </pre></p>
+            </div>
+    </article>
+    <article class="card">
+        <h1>Raising Elements</h1>
+        <h2>Use this to raise elements higher than their natural starting point.</h2>
+            <div>
+                <p><pre>
+.card-header {
+    position: relative;
+    margin-top: -20 px
+    }
+                </pre></p>
+            </div>
+    </article>
+</main>
+</body>
+<footer>
+    <p>Made with ❤️ and CSS</p>
+</footer>
+</html>
